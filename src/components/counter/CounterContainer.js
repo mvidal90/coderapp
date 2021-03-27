@@ -3,10 +3,10 @@ import { Counter } from './Counter';
 
 export const CounterContainer = () => {
     
-    const [stock, setStock] = useState(50);
+    const [stock, setStock] = useState(10);
 
     const onAdd = ( q ) => {
-        if( q <= stock){
+        if( q <= stock ){
             alert(`Has agregado ${q} elementos al carrito.`);
             setStock( stock - q );
         } else {

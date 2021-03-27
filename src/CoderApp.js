@@ -1,12 +1,12 @@
 import React from 'react';
 import { CounterContainer } from './components/counter/CounterContainer';
-import NavBar from './components/navbar/NavBar';
+import RouterApp from './routes/RouterApp';
 
 const CoderApp = () => {
     
     return (
         <>
-            <NavBar />
+            <RouterApp />
             <CounterContainer />
         </>
     )
