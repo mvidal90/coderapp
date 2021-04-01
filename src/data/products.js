@@ -6,7 +6,8 @@ export const products = [
         age: 2015,
         price: 650000,
         kms: 150000,
-        descrive: 'Excelente auto color blanco (disponible en muchos otros colores), con motor 1.6. Tanque de nafta de 60 L. Disponible Full. Finaciación disponible hasta 84 cuotas.',
+        stock: 2,
+        describe: 'Excelente auto color blanco (disponible en muchos otros colores), con motor 1.6. Tanque de nafta de 60 L. Disponible Full. Finaciación disponible hasta 84 cuotas.',
         urlImg: 'https://res.cloudinary.com/dhrchyk6n/image/upload/v1616788206/Autos/goltrend_mvmy9y.jpg',
     },
     {
@@ -16,7 +17,8 @@ export const products = [
         age: 2019,
         price: 1550000,
         kms: 50000,
-        descrive: 'Auto disponible en color bordó, con motor 1.5. Tanque de nafta de 65 L. Finaciación disponible hasta 60 cuotas sin Interés.',
+        stock: 3,
+        describe: 'Auto disponible en color bordó, con motor 1.5. Tanque de nafta de 65 L. Finaciación disponible hasta 60 cuotas sin Interés.',
         urlImg: 'https://res.cloudinary.com/dhrchyk6n/image/upload/v1616788086/Autos/fiesta_fb9vmo.jpg',
     },
     {
@@ -26,7 +28,8 @@ export const products = [
         age: 2000,
         price: 150000,
         kms: 550000,
-        descrive: 'Auto clásico, disponible en color blanco mate, con motor 1.3. Tanque de nafta de 45 L. Finaciación disponible hasta 48 cuotas.',
+        stock: 6,
+        describe: 'Auto clásico, disponible en color blanco mate, con motor 1.3. Tanque de nafta de 45 L. Finaciación disponible hasta 48 cuotas.',
         urlImg: 'https://res.cloudinary.com/dhrchyk6n/image/upload/v1616788091/Autos/fiat-147_mb0rgc.png',
     },
     {
@@ -36,7 +39,8 @@ export const products = [
         age: 2013,
         price: 750000,
         kms: 650500,
-        descrive: 'Auto clásico con nuevo modelo, disponible solo en color blanco rojo, con motor 1.3. Tanque de nafta de 45 L y tanque de gas 4ta generación. Finaciación disponible hasta 60 cuotas.',
+        stock: 1,
+        describe: 'Auto clásico con nuevo modelo, disponible solo en color blanco rojo, con motor 1.3. Tanque de nafta de 45 L y tanque de gas 4ta generación. Finaciación disponible hasta 60 cuotas.',
         urlImg: 'https://res.cloudinary.com/dhrchyk6n/image/upload/v1616793935/Autos/uno_nhlb6c.jpg',
     },
     {
@@ -46,7 +50,8 @@ export const products = [
         age: 2021,
         price: 3650000,
         kms: 0,
-        descrive: 'Camioneta familiar, disponible en color nero, blanco y gris. Motor 2.0. Tanque de nafta de 80 L. Finaciación disponible hasta 84 cuotas. Consultar por otros planes.',
+        stock: 5,
+        describe: 'Camioneta familiar, disponible en color nero, blanco y gris. Motor 2.0. Tanque de nafta de 80 L. Finaciación disponible hasta 84 cuotas. Consultar por otros planes.',
         urlImg: 'https://res.cloudinary.com/dhrchyk6n/image/upload/v1616788086/Autos/amarok_irl2fs.jpg',
     },
     {
@@ -56,7 +61,8 @@ export const products = [
         age: 2014,
         price: 850000,
         kms: 200000,
-        descrive: 'Auto familiar disponible en color en azul, con motor 1.6. Tanque de nafta de 60 L. Finaciación disponible hasta 60 cuotas.',
+        stock: 2,
+        describe: 'Auto familiar disponible en color en azul, con motor 1.6. Tanque de nafta de 60 L. Finaciación disponible hasta 60 cuotas.',
         urlImg: 'https://res.cloudinary.com/dhrchyk6n/image/upload/v1616788086/Autos/Suran_hmtqjc.jpg',
     },
 ]

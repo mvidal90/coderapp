@@ -1,14 +1,13 @@
 import React from 'react';
-import { CounterContainer } from './components/counter/CounterContainer';
+import CartProvider from './cart/CartProvider';
 import RouterApp from './routes/RouterApp';
 
 const CoderApp = () => {
     
     return (
-        <>
+        <CartProvider>
             <RouterApp />
-            <CounterContainer />
-        </>
+        </CartProvider>
     )
 }
 

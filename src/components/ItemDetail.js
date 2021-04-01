@@ -1,4 +1,5 @@
 import React from 'react'
+import { CounterContainer } from './counter/CounterContainer'
 
 const ItemDetail = ({ detail2: detail }) => {
     return (
@@ -10,7 +11,14 @@ const ItemDetail = ({ detail2: detail }) => {
                 <h3>{`${detail.brand} ${detail.model}`}</h3>
                 <h4>{`$ ${detail.price}`}</h4>
                 <h4>{`kms: ${detail.kms}`}</h4>
-                <p>{`${detail.descrive}`}</p>
+                <p>{`${detail.describe}`}</p>
+                <CounterContainer 
+                    id={ detail.id }
+                    brand={ detail.brand }
+                    model={ detail.model }
+                    stock={ detail.stock }
+                    price={ detail.price }  
+                />
             </div>
         </div>
     )

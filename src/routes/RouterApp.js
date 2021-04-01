@@ -5,11 +5,13 @@ import {
     Route,
     Redirect
   } from "react-router-dom";
+import Cart from '../components/Cart';
 import ItemDetailContainer from '../components/ItemDetailContainer';
 import ItemListContainer from '../components/ItemListContainer';
 import NavBar from '../components/navbar/NavBar';
 
 const RouterApp = () => {
+
     return (
         <Router>
             <div>
@@ -22,10 +24,12 @@ const RouterApp = () => {
                     <Route path="/item/:id">
                         <ItemDetailContainer />
                     </Route>
+                    <Route path="/cart">
+                        <Cart />
+                    </Route>
                     <Route path="/">
                         <ItemListContainer />
                     </Route>
-
                 </Switch>
 
                 <Redirect to='/' />

@@ -27,7 +27,9 @@ const ItemListContainer = () => {
         <div className="container">
             <h2>Autos</h2>
             <hr />
-            <ItemList items={ items } />
+            <ItemList  
+                items={ items } 
+            />
         </div>
     );
 };
